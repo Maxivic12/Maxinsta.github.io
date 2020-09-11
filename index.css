@@ -1,0 +1,162 @@
+#page 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+#page img
+{
+    margin-top: 10px;
+}
+
+#page #login input[placeholder]
+{
+    margin-bottom: -10px;
+    width: 125%;
+    height: 30px;
+    font-size: 13px;
+    padding: 4px;
+    opacity: 0.6;
+}  
+
+#page #login input[placeholder]:focus
+{
+    opacity: 0.8;
+    border-color: black;
+} 
+
+#page #login input[type="text"]
+{
+    margin-top: 25px;
+}
+
+#page #login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page #login input[type="submit"]
+{
+    margin-top: 25px;
+    width: 130%;
+    height: 30px;
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 5px;
+    border-color: #478bf9;
+    background-color: #478bf9;
+    color: #fff;
+} 
+
+#hr
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}  
+
+#hr hr
+{
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#fb_connect span
+{
+    margin-left: 5px;
+
+    margin-top: 20px;
+}
+
+#fb_connect span a
+{
+    text-decoration: none;
+    color: #325db3;
+}
+
+#mdp_o
+{
+    margin-top: 10px;
+}
+
+#mdp_o a 
+{
+    color: #4b85f6;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#pdcmp
+{
+    margin-top: 50px;
+}
+
+#pdcmp a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+#app
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#app span
+{
+    margin-top: 40px;
+}
+
+#app p
+{
+    margin-top: -10px;
+}
+
+#app p a
+{
+    text-decoration: none;    
+}
+
+footer #liens a
+{
+    text-transform: uppercase;
+    color: #1d5079;
+    text-decoration: none;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+footer #liens 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span
+{
+    opacity: 0.7;
+    font-size: 12px;
+}
